@@ -1,0 +1,25 @@
+{
+  "name": "sprint5",
+  "version": "1.0.0",
+  "description": "\"# sprint5-JobandJob\"",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "postcss styles.css -o ./public/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guerodye/sprint5-JobandJob.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guerodye/sprint5-JobandJob/issues"
+  },
+  "homepage": "https://github.com/Guerodye/sprint5-JobandJob#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.4"
+  }
+}
