@@ -6,8 +6,32 @@
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
+<div class="h-48 bg-blue-600">
+    <div><h1 class="text-2xl -mb-16 p-6 text-blue-300 font-bold">Orion Code Hires</h1></div>
+    <div class="flex  ml-40 relative ">
+        <div ><img src="image/joblogo4.png" alt="" class="w-24 mt-16 -ml-4 absolute -left-24 top-2" ></div>
 
+        <input type="text" name="job-title" id="job-title" class="border-2 rounded w-72  mt-20 ">
+        <input type="button" id="search-button" class=" rounded w-32 -ml-1 bg-blue-800 mt-20" value="Search">
+        <label for="filter-by" class="mt-20">Filter by:</label>
+        <select name="filter-by" id="filter-by"
+            class="border-2 mt-20 ">
+        <option type="button" value="" id="ten-recent">10 most recent Jobs</option>
+        <option value=" " id="from-48hrs">From the last 48 hours</option>
+        <option value="" id="by-date">By date</option>
 
+        </select>
+    </div>
+</div>
+<div id="job-posting" class=""></div>
+<div id="posting-dates"></div>
+
+<div id="ten-recent-web"></div>
+
+<input type="submit">
+<input type="submit">
+<input type="submit">
+<input type="date">
 <script src="app.js"></script>
 </body>
 </html>
