@@ -1,0 +1,317 @@
+{
+  "count": 153402,
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "mean": 133240.82,
+  "results": [
+    {
+      "created": "2021-07-22T10:48:11Z",
+      "title": "Senior Engineer - Developer Tools",
+      "location": {
+        "area": [
+          "US",
+          "West Virginia",
+          "Kanawha County",
+          "Charleston"
+        ],
+        "display_name": "Charleston, Kanawha County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": -81.633647,
+      "salary_is_predicted": "0",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.com/land/ad/2335537237?se=krYkyf_q6xG2oBQdfLTA6g&utm_medium=api&utm_source=ea386325&v=DA632FEF08943E6DAB888FA7DDBFA7B0CB9594E2",
+      "id": "2335537237",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoia3JZa3lmX3E2eEcyb0JRZGZMVEE2ZyIsImkiOiIyMzM1NTM3MjM3In0.M1pVRZMz2rKEO9m19oZOqLBESQKwX_f1F5lrIkuwnfg",
+      "latitude": 38.351711,
+      "description": "'s <strong>software</strong> <strong>engineers</strong>. We believe that our developers should be able to get the tools they need on demand using safe, secure, and financially responsible methods. To this end, we ... , build tools, and many others. Reporting to the Director of Developer Platform, you'll enable a world-class workstation experience for thousands of Amex <strong>software</strong> <strong>engineers</strong>. You'll ...",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "American Express"
+      }
+    },
+    {
+      "id": "2335537173",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoia3JZa3lmX3E2eEcyb0JRZGZMVEE2ZyIsImkiOiIyMzM1NTM3MTczIn0.CbEcYkHzh5VyKaTFR9WsyFuQLwHqQ2Ic0fa54OkKavg",
+      "redirect_url": "https://www.adzuna.com/land/ad/2335537173?se=krYkyf_q6xG2oBQdfLTA6g&utm_medium=api&utm_source=ea386325&v=EA8652AF8C675A56DF1D720E498654B740A4741F",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Leidos"
+      },
+      "description": "...  care outcomes in a highly dynamic marketplace. Our <strong>software</strong> <strong>engineers</strong> are at the forefront of defining and building solutions to address those challenges using a go-fast agile ...",
+      "latitude": 39.634638,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "title": "Cyber Security Engineer - HGS",
+      "longitude": -80.07436,
+      "location": {
+        "area": [
+          "US",
+          "West Virginia",
+          "Monongalia County",
+          "Morgantown"
+        ],
+        "display_name": "Morgantown, Monongalia County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0",
+      "created": "2021-07-22T10:48:11Z"
+    },
+    {
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "redirect_url": "https://www.adzuna.com/land/ad/2335536926?se=krYkyf_q6xG2oBQdfLTA6g&utm_medium=api&utm_source=ea386325&v=FB9AE8D345EBFD07414F3CCB12254E806CE0CECE",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjMzNTUzNjkyNiIsInMiOiJrcllreWZfcTZ4RzJvQlFkZkxUQTZnIn0.FBvZAyGXzz15Xce0b8yDUCpMB6jr0pFp6By0E2YPVNE",
+      "id": "2335536926",
+      "description": "Senior <strong>Software</strong> <strong>Engineer</strong> Job Description The Security Analytics Engineering group is looking to hire a <strong>Software</strong> <strong>engineer</strong> who loves working on complex problems and getting things ...  Spark, Apache Storm is a plus Experience with NOSQL systems (e.g. Cassandra, DynamoDB) Category : <strong>Engineering</strong> and Technology Subcategory: <strong>Software</strong> <strong>Engineering</strong> Experience: Manager ...",
+      "latitude": 38.351711,
+      "company": {
+        "display_name": "VMware",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2021-07-22T10:48:09Z",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Charleston, Kanawha County",
+        "area": [
+          "US",
+          "West Virginia",
+          "Kanawha County",
+          "Charleston"
+        ]
+      },
+      "title": "Senior Software Developer - Opportunity for Working Remotely",
+      "longitude": -81.633647,
+      "salary_is_predicted": "0"
+    },
+    {
+      "longitude": -104.779188,
+      "title": "Member of Technical Staff - Developer Tools Team (Opportunity to work remote)",
+      "location": {
+        "area": [
+          "US",
+          "Wyoming",
+          "Laramie County",
+          "Cheyenne"
+        ],
+        "display_name": "Cheyenne, Laramie County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0",
+      "created": "2021-07-22T10:48:07Z",
+      "redirect_url": "https://www.adzuna.com/land/ad/2335536732?se=krYkyf_q6xG2oBQdfLTA6g&utm_medium=api&utm_source=ea386325&v=29A789CFDE03DCD1A6C87AEF3D48852617FFC71D",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoia3JZa3lmX3E2eEcyb0JRZGZMVEE2ZyIsImkiOiIyMzM1NTM2NzMyIn0.SRxDNjWoeO4Vqw7EWMh5bf50bz58UXFl1ghHUI21cHQ",
+      "id": "2335536732",
+      "latitude": 41.141842,
+      "description": "...  : <strong>Engineering</strong> and Technology Subcategory: <strong>Software</strong> <strong>Engineering</strong> Experience: Manager and Professional Full Time/ Part Time: Full Time Posted Date: 2021-07-15 VMware Company Overview: At VMware ...",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "VMware",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      }
+    },
+    {
+      "longitude": -104.779188,
+      "title": "Sr. Member of Technical Staff - Opportunity for Working Remotely",
+      "location": {
+        "display_name": "Cheyenne, Laramie County",
+        "area": [
+          "US",
+          "Wyoming",
+          "Laramie County",
+          "Cheyenne"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0",
+      "created": "2021-07-22T10:48:07Z",
+      "redirect_url": "https://www.adzuna.com/land/ad/2335536735?se=krYkyf_q6xG2oBQdfLTA6g&utm_medium=api&utm_source=ea386325&v=984786051B4A672917072DD0192A9B4E82F0FDC8",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoia3JZa3lmX3E2eEcyb0JRZGZMVEE2ZyIsImkiOiIyMzM1NTM2NzM1In0.JLzDhMiaGrAljqsa8AaDHcX2MEIDRfuPol0WqT4_pCI",
+      "id": "2335536735",
+      "latitude": 41.141842,
+      "description": "...  Subcategory: <strong>Software</strong> <strong>Engineering</strong> Experience: Manager and Professional Full Time/ Part Time: Full Time Posted Date: 2021-07-19 VMware Company Overview: At VMware, we believe that software ...  leads and managers from multiple business units with a shared passion of enabling developers build modern apps in a multi-cloud environment. Category : <strong>Engineering</strong> and Technology ...",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "VMware"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      }
+    },
+    {
+      "salary_is_predicted": "0",
+      "title": "Senior Engineer - Developer Tools",
+      "longitude": -104.779188,
+      "location": {
+        "area": [
+          "US",
+          "Wyoming",
+          "Laramie County",
+          "Cheyenne"
+        ],
+        "display_name": "Cheyenne, Laramie County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "created": "2021-07-22T10:48:05Z",
+      "latitude": 41.141842,
+      "description": "'s <strong>software</strong> <strong>engineers</strong>. We believe that our developers should be able to get the tools they need on demand using safe, secure, and financially responsible methods. To this end, we ... , build tools, and many others. Reporting to the Director of Developer Platform, you'll enable a world-class workstation experience for thousands of Amex <strong>software</strong> <strong>engineers</strong>. You'll ...",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "American Express",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.com/land/ad/2335536529?se=krYkyf_q6xG2oBQdfLTA6g&utm_medium=api&utm_source=ea386325&v=6A254698277380085C7EF67076148A1253AE5265",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoia3JZa3lmX3E2eEcyb0JRZGZMVEE2ZyIsImkiOiIyMzM1NTM2NTI5In0.OLItisA4Njv6pFYAZxNEsd4YLGeyolhZQfTtQZOKVZU",
+      "id": "2335536529",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      }
+    },
+    {
+      "company": {
+        "display_name": "Amazon Jobs",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "latitude": 42.348495,
+      "description": ", and a motivation to achieve results in a fast paced environment. As part of this role you will: · Build and manage a team of industry-leading <strong>software</strong> <strong>engineers</strong> · Foster career growth ...",
+      "id": "2335536286",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjMzNTUzNjI4NiIsInMiOiJrcllreWZfcTZ4RzJvQlFkZkxUQTZnIn0.CDgsjlaxcsyuCqx5Go0IYRNZzb1ENn6vdPe2WLhEATc",
+      "redirect_url": "https://www.adzuna.com/land/ad/2335536286?se=krYkyf_q6xG2oBQdfLTA6g&utm_medium=api&utm_source=ea386325&v=8F35C3EFA4CB6DD588DAB1FB4E66011F46339429",
+      "contract_time": "full_time",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Detroit, Wayne County",
+        "area": [
+          "US",
+          "Michigan",
+          "Wayne County",
+          "Detroit"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "title": "Software Development Manager",
+      "longitude": -83.0603,
+      "created": "2021-07-22T10:48:00Z"
+    },
+    {
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "VMware"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "latitude": 41.141842,
+      "description": "We're looking for a Sr. <strong>Software</strong> <strong>Engineer</strong> to join one of our VMWare Carbon Black Cloud Development teams to build solutions that will help us deliver an industry-leading security ...  and improve performance and customer experience. What You'll Bring - 7 years of software development experience in BigData solutions. - <strong>Software</strong> <strong>engineering</strong> skills such as Data Structures ...",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjMzNTUzNjE2OSIsInMiOiJrcllreWZfcTZ4RzJvQlFkZkxUQTZnIn0.4EW4mZ7JM807cFOS6rbunv0kOSMMJw7FjTZMTW5S3WY",
+      "id": "2335536169",
+      "redirect_url": "https://www.adzuna.com/land/ad/2335536169?se=krYkyf_q6xG2oBQdfLTA6g&utm_medium=api&utm_source=ea386325&v=3BC191A0E528EED08DA6BDE8D07873A020912EBC",
+      "created": "2021-07-22T10:47:59Z",
+      "salary_is_predicted": "0",
+      "title": "Senior Data Engineer - Opportunity for Working Remotely",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Cheyenne, Laramie County",
+        "area": [
+          "US",
+          "Wyoming",
+          "Laramie County",
+          "Cheyenne"
+        ]
+      },
+      "longitude": -104.779188
+    },
+    {
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "2335531313",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoia3JZa3lmX3E2eEcyb0JRZGZMVEE2ZyIsImkiOiIyMzM1NTMxMzEzIn0.BAwTVmAvbErwSshNyAOH6K_ogphr_YkC1ySFKc0SPzE",
+      "redirect_url": "https://www.adzuna.com/land/ad/2335531313?se=krYkyf_q6xG2oBQdfLTA6g&utm_medium=api&utm_source=ea386325&v=E8432A567172D4E0720C5F71AA7521AC7102ECA8",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Parsons Corporation"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "latitude": 39.127328,
+      "description": "...  is now hiring an experienced <strong>Software</strong> <strong>Engineer</strong> who will focus on Computerized Maintenance Management Systems (CMMS). Parsons' extensive experience in this field, combined with your ...  <strong>software</strong> <strong>engineering</strong> knowledge, will propel your career forward with opportunity for advancement with top performance. We can offer training, development and opportunities to work ...",
+      "created": "2021-07-22T10:46:32Z",
+      "title": "CMMS <strong>Software</strong> <strong>Engineer</strong>",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "US",
+          "Maryland",
+          "Anne Arundel County",
+          "Annapolis Junction"
+        ],
+        "display_name": "Annapolis Junction, Anne Arundel County"
+      },
+      "longitude": -76.789568,
+      "salary_is_predicted": "0"
+    },
+    {
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "...  Qualifications: 7-12 years <strong>software</strong> <strong>engineering</strong> or related experience Current TS/SCI security clearance or crossover eligible SSBI. Understanding of Agile and DevOps software methodologies ...  Experience with Container (Docker/CRIO.d) technologies Desired Qualifications: Experience with Kubernetes and it's distributions Understanding of <strong>software</strong> <strong>engineering</strong> including application ...",
+      "latitude": 39.75,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "Parsons Corporation",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.com/land/ad/2335531302?se=krYkyf_q6xG2oBQdfLTA6g&utm_medium=api&utm_source=ea386325&v=7549E8E68585E1F01BAB824A167096DF9F0CE729",
+      "id": "2335531302",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoia3JZa3lmX3E2eEcyb0JRZGZMVEE2ZyIsImkiOiIyMzM1NTMxMzAyIn0.T1dA7NV9kGgvzUysM2zn16bL6DiUGQ_JPtVD6oHPf4A",
+      "created": "2021-07-22T10:46:31Z",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "US",
+          "Colorado",
+          "Denver"
+        ],
+        "display_name": "Denver, Colorado",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "title": "Cloud Engineer",
+      "longitude": -104.99
+    }
+  ]
+}
