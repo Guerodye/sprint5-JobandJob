@@ -6,21 +6,34 @@
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-<div class="h-48 bg-blue-600">
-    <div><h1 class="text-2xl -mb-16 p-6 text-blue-300 font-bold">Orion Code Hires</h1></div>
+<div class="h-64 bg-blue-600">
+    <div>
+        <div><img src="image/joblogo4.png" alt="" class="w-24 mt-16 -ml-4 absolute -left-24 top-2"></div>
+        <h1 class="text-2xl -mb-16 p-6 text-blue-300 font-bold">Orion Code Hires</h1>
+    </div>
     <div class="flex  ml-40 relative ">
-        <div ><img src="image/joblogo4.png" alt="" class="w-24 mt-16 -ml-4 absolute -left-24 top-2" ></div>
 
         <input type="text" name="job-title" id="job-title" class="border-2 rounded w-72  mt-20 ">
         <input type="button" id="search-button" class=" rounded w-32 -ml-1 bg-blue-800 mt-20" value="Search">
         <label for="filter-by" class="mt-20">Filter by:</label>
-        <select name="filter-by" id="filter-by"
-            class="border-2 mt-20 ">
-        <option type="button" value="" id="ten-recent">10 most recent Jobs</option>
-        <option value=" " id="from-48hrs">From the last 48 hours</option>
-            <option value="" id="by-date">By date</option>
+        <select name="filter-by" id="filter-by" class="border-2 mt-20">
+            <option value="10" id="ten-recent">10 most recent Jobs</option>
+            <option value="48" id="from-48hrs">From the last 48 hours</option>
+            <option value="date" id="by-date">By date</option>
+        </select>
+        <input type="date" class="mt-20 " +++ id="date-picker">
+
+        <label for="filter-by-category" class="mt-20">Category:</label>
+        <select name="by-category" id="filter-by-category" class="border-2 mt-20">
+            <option value="None" id="none" selected>None</option>
+            <option value="Engineering Jobs" id="engineering-jobs">Engineering Jobs</option>
+            <option value="Customer Services Jobs" id="customer-services-jobs">Customer Services Jobs</option>
+            <option value="Part time Jobs" id="part-time-jobs">Part time Jobs</option>
+            <option value="" id=""></option>
 
         </select>
+
+
     </div>
 </div>
 <div id="job-posting" class=""></div>
