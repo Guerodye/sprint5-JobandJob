@@ -13,11 +13,11 @@ form.addEventListener('submit',function (e){
     //alert('Form is submitted');
     let error1= [];
     let error2=[];
-    if(username.value.length <= 6){
-        error1.push('Username must have more than 6 characters');
+    if(username.value.length = 0){
+        error1.push('Enter your username');
     }
-    if (password.value.length <= 8){
-        error2.push('Password must have more than 8 characters');
+    if (password.value.length = 0){
+        error2.push('Enter your password');
     }
     //message.innerText = error;//
 
