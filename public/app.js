@@ -20,7 +20,43 @@ filterBy.addEventListener("change", filterJobs);
 filterByCategory.addEventListener("change", byCategory);
 //save.addEventListener("click", savedJobs);
 
-tenLastJobs();
+//tenLastJobs();
+
+main(); //To post all the jobs on the webpage
+function main(){
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+            let jobPosting = document.querySelector("#job-posting")
+            let chronologicalData = data.results.sort(forJobDate);
+
+            for (let i = 0; i < chronologicalData.length; i++) {
+
+                let jobTitle = [chronologicalData[i].title]
+                //console.log(jobTitle)
+
+                let jobDate = [chronologicalData[i].created.substring(0, 10)];
+
+                //console.log(jobDate);
+                let jobCategory = chronologicalData[i].category.label;
+
+                const jobs = document.createElement('div')
+                jobs.innerHTML = `<h2 class="text-xl font-bold">${jobTitle}</h2> 
+                                <p class="">${jobDate}</p>
+                                <p class="mb-4">${jobCategory}</p>
+                                                                `
+                jobPosting.appendChild(jobs);
+
+
+
+            }
+
+
+
+        })
+
+}
 
 function tenLastJobs() {
     fetch(apiUrl)
@@ -31,7 +67,6 @@ function tenLastJobs() {
             let jobPosting = document.querySelector("#job-posting")
             let chronologicalData = data.results.sort(forJobDate);
 
-            //let sortedData = data.results.sort(forJobDate);
             jobPosting.innerHTML = '';
 
             let jobQuantity = 10;
@@ -39,8 +74,7 @@ function tenLastJobs() {
                 jobQuantity = chronologicalData.length;
             }
             for (let i = 0; i < jobQuantity; i++) {
-                //let base = data.results[i]
-                //console.log(base)
+
 
                 let jobTitle = [chronologicalData[i].title]
                 //console.log(jobTitle)
@@ -48,15 +82,13 @@ function tenLastJobs() {
                 let jobDate = [chronologicalData[i].created.substring(0, 10)];
 
                 //console.log(jobDate);
-                //let jobDateArray = Object.values({jobDate});
-                //console.log(typeof jobDate)
+
 
                 const jobs = document.createElement('div')
                 jobs.innerHTML = `<h2 class="text-xl font-bold">${jobTitle}</h2> 
                                 <p class="mb-4">${jobDate}</p>`
                 jobPosting.appendChild(jobs);
 
-                //Function that arrange the date chronologically by comparing the months and the dates with the years being the same
 
             }
         });
@@ -69,20 +101,20 @@ function last48Hours() {
         .then(data => {
 
             let chronologicalData = data.results.sort(forJobDate);
-            let today;
+            let today; //Create an empty variable
             if (datePicker.style.visibility == 'visible') {
-                console.log(datePicker.value);
+                //console.log(datePicker.value);
                 today = new Date(datePicker.value);
             } else {
                 today = new Date();
             }
 
-
-            let now = today.toISOString();
-            today.setHours(today.getHours() - 48);
+//
+            let now = today.toISOString(); //toISOString to convert the date format
+            today.setHours(today.getHours() - 48);//today is now the date picked minus 48hrs
             let before = today.toISOString();
-            console.log(before);
-            console.log(now);
+            //console.log(before);
+            //console.log(now);
 
             jobPosting.innerHTML = '';
             for (let job of chronologicalData) {
@@ -95,9 +127,6 @@ function last48Hours() {
                     let jobId = job.id;
                     //console.log(jobTitle)
 
-                    //console.log(jobDate);
-                    //let jobDateArray = Object.values({jobDate});
-                    //console.log(typeof jobDate)
 
                     const jobs = document.createElement('div')
                     jobs.innerHTML = `<div class="flex">
@@ -116,7 +145,7 @@ function last48Hours() {
         })
 
 }
-
+filterByCategory.addEventListener("change", byCategory);
 function byCategory() {
     //datePicker.style.visibility="hidden";
 
@@ -154,7 +183,7 @@ function byCategory() {
 
         })
 
-}
+    }
 
 
 function filterJobs() {
@@ -174,7 +203,7 @@ function filterJobs() {
 }
 
 
-function forJobDate(a, b) {
+function forJobDate(a, b) {// arrange the dates chronologically
     let date1 = new Date(a.created);
     let date2 = new Date(b.created);
 
@@ -186,7 +215,7 @@ function forJobDate(a, b) {
     return 0;
 }
 
-function savedJobs(work) {
+function savedJobs(work) {// This funtion is not complete, still working on it
     let chronologicalData = data.results.sort(forJobDate);
 
     let id=work.getAttribute("data-id")
@@ -203,7 +232,7 @@ function savedJobs(work) {
 
 }
 
-
+//That was an other way that I found to arrange the data chronologically
 // let date1 = new Date(a.created);
 // let date2 = new Date(b.created);
 //
@@ -215,51 +244,8 @@ function savedJobs(work) {
 // //if dates have the same month
 // // else {
 //     return 0;
-// }
+//     }
 
-
-// for (let i=0; i<10; i++) {
-//     let base= data.results[i]
-//     console.log(base)
-//     let jobTitle= base.title
-//     console.log(jobTitle)
-//     let date= data.results[i].created
-//     console.log(date)
-//     const jobs=document.createElement('div')
-//     jobs.innerHTML= `<h2 class="text-xl">${jobTitle}</h2>
-//                         <p class="mb-4">${date}</p>`
-//     jobPosting.appendChild(jobs)
-//
-//
-// }
-// let empty=[]
-//
-// for (let i=0; i<10; i++){
-//     let date= String(data.results[i].created).substring(0,10)
-//     console.log(date)
-//     let postingDates= document.querySelector("#posting-dates")
-//     const dates=document.createElement('div')
-//     dates.innerHTML=`<p>${date}`
-//     postingDates.appendChild(dates)
-
-// empty.push(date)
-// let changeDate= String([empty])
-// let specificDate= changeDate.substring(0,10)
-// let postingDates= document.querySelector("#posting-dates")
-// const dates=document.createElement('div')
-// dates.innerHTML=`<p>dob: ${specificDate}</p>`
-// postingDates.appendChild(dates)
-
-
-//}
-
-
-//date.sort();
-//console.log(date)
-//  function byDate(a, b) {
-//chronologically by year, month, then day
-//     return new Date(a.date).valueOf() - new Date(b.date).valueOf(); //timestamps
-// }
 
 
 

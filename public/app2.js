@@ -1,39 +1,40 @@
-
 const formSignIn = document.getElementById("form-sign-in")
 //const message = document.getElementById("message")
 const newUsernameError = document.getElementById("new-username-error")
 const newPasswordError = document.getElementById("new-password-error")
+//let signInInfo=[];
+let inputs =[{
+    username: document.getElementById("username").value,
+
+    password: document.getElementById("password").value
+
+}]
+
+formSignIn.addEventListener('submit', signUp);
 
 
 
-
-formSignIn.addEventListener('submit',signUp)
-    function signUp(e){
+function signUp(e) {
     e.preventDefault();// prevent auto submission
     //alert('Form is submitted');
-    let error1= [];
-    let error2=[];
-    let signInInfo=[];
-    if(newUsername.value.length <= 6){
+    let error1 = [];
+    let error2 = [];
+    //let signInInfo=[];
+
+    if (username.value.length <= 6) {
         error1.push('Username must have more than 6 characters');
     }
-    if (newPassword.value.length <= 8){
+    if (password.value.length <= 8) {
         error2.push('Password must have more than 8 characters');
     }
-    //message.innerText = error;//
 
-    else{
-         let inputs= {
-             newUsername : document.getElementById("new-username").value,
-             newPassword : document.getElementById("new-password").value
-         }
-         signInInfo.push(inputs);
-         console.log(signInInfo);
-        window.location.href="loginin.html";
-
-        //formSignIn.reset();
+    else {
 
 
+        //signInInfo.push(inputs);
+       console.log(inputs);
+        window.location.href = "index.html";
+        formSignIn.reset();
 
 
         //window.location.href="index.html";
@@ -42,37 +43,58 @@ formSignIn.addEventListener('submit',signUp)
     newPasswordError.innerText = error2;
 
 }
+//Working on a different way to make the sign-in and login interact
+// const formLogin = document.getElementById("form-login");
+// const loginUsername = document.getElementById("login-username").value;
+// const loginPassword = document.getElementById("login-password").value;
+// //
+// //
+//  formLogin.addEventListener('submit',login)
+//  function login(e){
+//      e.preventDefault();
+//         if(loginUsername == inputs.username && loginPassword == inputs.password) {
+//             console.log(username + ' is logged in!!!')
+//             // stop the statement if result is found true - this was a return in the video, break is best practice here
+//         } else {
+//             // error if username and password don't match
+//             console.log('incorrect username or password')
+//         }
+//    }
 
-const form = document.getElementById("form-login");
-const username = document.getElementById("username");
-const password = document.getElementById("password")
+const formLogin = document.getElementById("form-login");
+const loginUsername = document.getElementById("login-username");
+const loginPassword = document.getElementById("login-password")
 //const message = document.getElementById("message")
-const usernameError = document.getElementById("usernameerror")
-const passwordError = document.getElementById("passworderror")
+const loginUsernameError = document.getElementById("login-username-error")
+const loginPasswordError = document.getElementById("login-password-error")
 
 
 
 
-form.addEventListener('submit',function (e){
+formLogin.addEventListener('submit',login);
+function login(e){
     e.preventDefault();// prevent auto submission
     //alert('Form is submitted');
-    let error1= [];
-    let error2=[];
-    if(username.value.length = 0){
-        error1.push('Enter your username');
+    let errorLogin1= [];
+    let errorLogin2=[];
+    if(loginUsername.value.length <= 6){
+        errorLogin1.push('Enter your username');
     }
-    if (password.value.length = 0){
-        error2.push('Enter your password');
+    if (loginPassword.value.length <= 8){
+        errorLogin2.push('Enter your password');
     }
     //message.innerText = error;//
 
     else{
+
         window.location.href="index.html";
     }
-    usernameError.innerText = error1;
-    passwordError.innerText = error2;
+    loginUsernameError.innerText = errorLogin1;
+    loginPasswordError.innerText = errorLogin2;
 
-})
+}
+
+
 
 
 
